@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lLay_GraphItCanvas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rLay_GraphCanvas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.02" >
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/lLay_bottomMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btn_addVertex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btn_addVertexClick"
+            android:text="add Vertex" />
+
+        <Button
+            android:id="@+id/btn_removeAllVertices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btn_removeAllVerticesClick"
+            android:text="remove all" />
+
+        <Button
+            android:id="@+id/btn_removeLastVertex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="remove last" android:onClick="btn_removeLastVertexClick"/>
+
+    </LinearLayout>
+
+</LinearLayout>
