@@ -29,6 +29,7 @@ public class Graph extends RelativeLayout implements OnTouchListener {
 							// und dem Abstand des Knoten zur oberen Screenseite
 	private int width; // aktuelle Breite
 	private int height; // aktuelle Höhe
+	//bla bla ich bin gay
 
 	public Graph(Context context, String name) {
 		super(context);
